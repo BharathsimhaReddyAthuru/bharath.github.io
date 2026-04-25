@@ -267,12 +267,16 @@
   <section id="about" class="relative z-10 py-24 px-6 border-t border-white/[0.05]">
     <div class="max-w-7xl mx-auto">
       <div class="sec-label mb-4 reveal">01 — About</div>
-      <div class="grid lg:grid-cols-2 gap-16 items-start">
+      <div class="grid lg:grid-cols-[1fr_1fr_auto] gap-12 items-start">
+
+        <!-- Left: heading -->
         <div class="reveal">
           <h2 class="font-serif text-4xl md:text-5xl leading-tight mb-0" style="letter-spacing:-.02em">
             Building intelligent systems<br>that <em style="font-style:italic;color:var(--accent)">actually</em> get deployed.
           </h2>
         </div>
+
+        <!-- Middle: bio -->
         <div class="reveal space-y-5 text-white/50 text-[15px] leading-relaxed">
           <p>I'm Bharathsimha — a Data Scientist and ML practitioner based in Immenstaad, Germany. Currently completing my M.Sc in AI &amp; Data Science at Technische Hochschule Deggendorf, while working on a Master's thesis measuring AI assistant efficiency in software development workflows at Aumovio SE.</p>
           <p>My career spans enterprise software at IBM India, Power BI dashboard engineering at Continental AG, and agentic AI research. I care about the full picture — not just building models, but shipping them, monitoring them, and making them useful.</p>
@@ -287,6 +291,32 @@
             <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/" target="_blank" class="glass w-10 h-10 rounded-full flex items-center justify-center text-white/60 hover:text-white transition-colors text-sm"><i class="fa-brands fa-linkedin-in"></i></a>
           </div>
         </div>
+
+        <!-- Right: photo -->
+        <div class="reveal flex justify-center lg:justify-end">
+          <div class="relative">
+            <!-- Glow ring -->
+            <div class="absolute inset-0 rounded-3xl" style="background:linear-gradient(135deg,var(--accent),transparent 60%);padding:2px;border-radius:1.5rem;">
+              <div class="w-full h-full rounded-3xl" style="background:var(--bg)"></div>
+            </div>
+            <!-- Photo -->
+            <div class="relative w-56 h-72 rounded-3xl overflow-hidden" style="border:1.5px solid rgba(168,255,62,.25)">
+              <img
+                src="Bharath.jpeg"
+                alt="Bharathsimha Reddy Athuru"
+                class="w-full h-full object-cover object-top"
+                onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex flex-col items-center justify-center gap-3\' style=\'background:rgba(168,255,62,.05)\'><i class=\'fa-solid fa-user text-5xl\' style=\'color:rgba(168,255,62,.3)\'></i><span class=\'text-xs font-mono text-white/30\'>Bharath.jpeg</span></div>'"
+              />
+              <!-- Subtle bottom gradient -->
+              <div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/40 to-transparent"></div>
+            </div>
+            <!-- Location badge -->
+            <div class="absolute -bottom-3 left-1/2 -translate-x-1/2 glass px-4 py-1.5 rounded-full text-xs font-mono text-white/60 whitespace-nowrap" style="border-color:rgba(168,255,62,.2)">
+              📍 Immenstaad, Germany
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -591,49 +621,119 @@
     <div class="max-w-7xl mx-auto">
       <div class="sec-label mb-4 reveal">05 — Certifications</div>
       <h2 class="font-serif text-4xl md:text-5xl mb-16 reveal" style="letter-spacing:-.02em">Credentials.</h2>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Microsoft certs -->
+      <div class="sec-label mb-5 reveal">Microsoft</div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
 
-        <div class="glass cert-card rounded-3xl p-7 reveal">
-          <i class="fa-brands fa-microsoft text-2xl text-blue-400 mb-5 block"></i>
-          <div class="text-xs font-mono text-white/30 uppercase tracking-wider mb-2">Microsoft</div>
-          <div class="font-bold text-sm leading-snug">Power BI Data Analyst Associate</div>
-          <div class="text-xs text-white/40 mt-1">PL-300</div>
-        </div>
-
-        <div class="glass cert-card rounded-3xl p-7 reveal">
-          <i class="fa-brands fa-microsoft text-2xl text-blue-400 mb-5 block"></i>
-          <div class="text-xs font-mono text-white/30 uppercase tracking-wider mb-2">Microsoft</div>
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-brands fa-microsoft text-xl text-blue-400 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">Microsoft · Apr 2023</div>
           <div class="font-bold text-sm leading-snug">Azure AI Fundamentals</div>
-          <div class="text-xs text-white/40 mt-1">AI-900</div>
-        </div>
+          <div class="text-xs text-white/40">AI-900 · Computer Vision, NLP</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
 
-        <div class="glass cert-card rounded-3xl p-7 reveal">
-          <i class="fa-brands fa-microsoft text-2xl text-blue-400 mb-5 block"></i>
-          <div class="text-xs font-mono text-white/30 uppercase tracking-wider mb-2">Microsoft</div>
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-brands fa-microsoft text-xl text-blue-400 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">Microsoft · Mar 2023</div>
+          <div class="font-bold text-sm leading-snug">Power BI Data Analyst Associate</div>
+          <div class="text-xs text-white/40">PL-300 · Data Analyst, Business Analysis</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-brands fa-microsoft text-xl text-blue-400 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">Microsoft · Oct 2022</div>
           <div class="font-bold text-sm leading-snug">Azure Fundamentals</div>
-          <div class="text-xs text-white/40 mt-1">AZ-900</div>
-        </div>
+          <div class="text-xs text-white/40">AZ-900 · ID: I465-4145</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
 
-        <div class="glass cert-card rounded-3xl p-7 reveal">
-          <i class="fa-solid fa-cube text-2xl text-blue-600 mb-5 block"></i>
-          <div class="text-xs font-mono text-white/30 uppercase tracking-wider mb-2">IBM</div>
+      </div>
+
+      <!-- IBM certs -->
+      <div class="sec-label mb-5 reveal">IBM</div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-solid fa-cube text-xl text-blue-500 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">IBM · Sep 2022</div>
           <div class="font-bold text-sm leading-snug">Applied Data Science with Python</div>
-          <div class="text-xs text-white/40 mt-1">Level 2</div>
-        </div>
+          <div class="text-xs text-white/40">Level 2 · Statistics, Analytics +6</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
 
-        <div class="glass cert-card rounded-3xl p-7 reveal">
-          <i class="fa-solid fa-cube text-2xl text-blue-600 mb-5 block"></i>
-          <div class="text-xs font-mono text-white/30 uppercase tracking-wider mb-2">IBM</div>
-          <div class="font-bold text-sm leading-snug">Machine Learning Specialist</div>
-          <div class="text-xs text-white/40 mt-1">Associate</div>
-        </div>
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-solid fa-chart-bar text-xl text-blue-500 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">IBM · Sep 2022</div>
+          <div class="font-bold text-sm leading-snug">Data Visualization Using Python</div>
+          <div class="text-xs text-white/40">Business Analysis, Data Visualization</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
 
-        <div class="glass cert-card rounded-3xl p-7 reveal">
-          <i class="fa-solid fa-cloud text-2xl text-blue-600 mb-5 block"></i>
-          <div class="text-xs font-mono text-white/30 uppercase tracking-wider mb-2">IBM</div>
-          <div class="font-bold text-sm leading-snug">Cloud Advocate</div>
-          <div class="text-xs text-white/40 mt-1">v2</div>
-        </div>
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-solid fa-magnifying-glass-chart text-xl text-blue-500 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">IBM · Aug 2022</div>
+          <div class="font-bold text-sm leading-snug">Data Analysis Using Python</div>
+          <div class="text-xs text-white/40">Analytics, pandas +4</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-brands fa-python text-xl text-blue-500 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">IBM · Jun 2022</div>
+          <div class="font-bold text-sm leading-snug">Python for Data Science</div>
+          <div class="text-xs text-white/40">pandas, Data Mining</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-solid fa-cloud text-xl text-blue-500 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">IBM · Aug 2021</div>
+          <div class="font-bold text-sm leading-snug">IBM Certified Advocate — Cloud v1</div>
+          <div class="text-xs text-white/40">Cloud fundamentals</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-solid fa-lightbulb text-xl text-yellow-400 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">IBM · Dec 2021</div>
+          <div class="font-bold text-sm leading-snug">Enterprise Design Thinking Practitioner</div>
+          <div class="text-xs text-white/40">Business Analysis</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-solid fa-arrows-spin text-xl text-blue-500 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">IBM · Dec 2021</div>
+          <div class="font-bold text-sm leading-snug">IBM Agile Explorer</div>
+          <div class="text-xs text-white/40">Business Analysis</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-solid fa-handshake text-xl text-blue-500 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">IBM · Dec 2021</div>
+          <div class="font-bold text-sm leading-snug">IBM Consulting — Communicating Value</div>
+          <div class="text-xs text-white/40">Business Analysis</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-solid fa-briefcase text-xl text-blue-500 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">IBM · Dec 2021</div>
+          <div class="font-bold text-sm leading-snug">IBM Consulting — Delivering Business Value</div>
+          <div class="text-xs text-white/40">Business Analysis</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/details/certifications/" target="_blank" class="glass cert-card rounded-2xl p-6 reveal flex flex-col gap-2 group">
+          <i class="fa-solid fa-heart-pulse text-xl text-pink-400 mb-2 block"></i>
+          <div class="text-xs font-mono text-white/30 uppercase tracking-wider">IBM · Dec 2021</div>
+          <div class="font-bold text-sm leading-snug">Mental Health Ally</div>
+          <div class="text-xs text-white/40">Wellbeing & Inclusion</div>
+          <div class="mt-auto pt-3 text-xs font-bold opacity-0 group-hover:opacity-100 transition-opacity" style="color:var(--accent)">View credential ↗</div>
+        </a>
 
       </div>
     </div>
