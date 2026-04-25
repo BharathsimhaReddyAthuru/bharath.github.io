@@ -1,72 +1,75 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    background: #f4f6f9;
-    color: #333;
-    line-height: 1.6;
-}
-
-/* HERO */
-.hero {
-    background: #111;
-    color: white;
+    font-family: "Arial";
+    background: #0d0d0d;
+    color: #ffffff;
+  }
+  
+  /* HERO */
+  .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 60px 20px;
-}
-
-.hero h1 {
-    font-size: 40px;
-    margin: 0;
-}
-
-.subtitle {
-    font-size: 18px;
-    color: #ccc;
-}
-
-.tagline {
-    margin-top: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+  }
+  
+  .hero h2 {
     color: #aaa;
-}
-
-/* LINKS */
-.links a {
-    color: #00bfff;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-/* SECTIONS */
-section {
-    max-width: 900px;
-    margin: auto;
-    padding: 25px;
-}
-
-h2 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
-}
-
-/* CARDS */
-.card {
+  }
+  
+  .hero-buttons a {
+    margin: 10px;
+    padding: 10px 20px;
     background: white;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* LIST */
-ul {
-    padding-left: 20px;
-}
-
-/* FOOTER */
-footer {
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  
+  /* SECTIONS */
+  .section {
+    padding: 100px 15%;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* SKILLS */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .grid div {
+    background: #1a1a1a;
+    padding: 12px;
     text-align: center;
+    border-radius: 6px;
+  }
+  
+  /* CARDS */
+  .card {
+    background: #151515;
     padding: 20px;
-    background: #111;
-    color: white;
-    margin-top: 30px;
-}
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .card ul {
+    margin-left: 20px;
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+  }
