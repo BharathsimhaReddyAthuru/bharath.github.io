@@ -1,72 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bharath | Data Scientist</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharathsimha Reddy Athuru — Data Scientist</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <header>
-        <h1>Bharath</h1>
-        <p>Data Scientist | Machine Learning Engineer | MLOps Enthusiast</p>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
 
-        <div class="links">
-            <a href="https://github.com/your-github">GitHub</a>
-            <a href="https://linkedin.com/in/your-linkedin">LinkedIn</a>
-            <a href="mailto:yourmail@gmail.com">Email</a>
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">BA<span class="accent">.</span></span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="mailto:bharath.athuru97@gmail.com" class="nav-cta">Hire me</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-bg-text">DATA</div>
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="pulse-dot"></span>
+        Available for roles in Germany &amp; Europe
+      </div>
+      <h1 class="hero-title">
+        <span class="line">Data</span>
+        <span class="line italic">Scientist</span>
+      </h1>
+      <div class="hero-sub">
+        <p>From raw data to deployed models —<br>analytics, ML pipelines, and agentic AI.</p>
+        <div class="hero-meta">
+          <span>M.Sc AI &amp; Data Science</span>
+          <span class="sep">·</span>
+          <span>TH Deggendorf, Germany</span>
         </div>
-    </header>
+      </div>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View projects</a>
+        <a href="https://github.com/bgonward23/" target="_blank" class="btn-ghost">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/" target="_blank" class="btn-ghost">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-n">4+</span>
+        <span class="stat-l">Years experience</span>
+      </div>
+      <div class="stat">
+        <span class="stat-n">€50K</span>
+        <span class="stat-l">Cost savings identified</span>
+      </div>
+      <div class="stat">
+        <span class="stat-n">20%</span>
+        <span class="stat-l">Efficiency improvement</span>
+      </div>
+      <div class="stat">
+        <span class="stat-n">6</span>
+        <span class="stat-l">Certifications</span>
+      </div>
+    </div>
+    <div class="scroll-hint">scroll ↓</div>
+  </section>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am a Data Scientist with hands-on experience in building end-to-end machine learning pipelines,
-            data analysis, and deploying ML models using FastAPI, Docker, and AWS.
-        </p>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-
-        <div class="card">
-            <h3>Vehicle Insurance Prediction</h3>
-            <p>
-                Built an end-to-end ML system using Random Forest, MLflow for experiment tracking,
-                FastAPI for deployment, and Docker for containerization.
-            </p>
-            <a href="https://github.com/your-repo">View Project</a>
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="section-label">01 — About</div>
+    <div class="about-grid">
+      <div class="about-left">
+        <h2 class="section-title">
+          Building intelligent<br>
+          systems that <em>actually</em><br>
+          get deployed.
+        </h2>
+      </div>
+      <div class="about-right">
+        <p>I'm Bharathsimha — a Data Scientist and ML practitioner based in Immenstaad, Germany. Currently completing my M.Sc in AI &amp; Data Science at Technische Hochschule Deggendorf, while working on a Master's thesis measuring AI assistant efficiency in software development workflows.</p>
+        <p>My career spans enterprise software at IBM India, Power BI dashboard engineering at Continental AG, and agentic AI research at Aumovio SE. I care about the full picture — not just building models, but shipping them, monitoring them, and making them useful to real teams.</p>
+        <p>Currently deepening my MLOps expertise: end-to-end pipelines with DVC, MLflow, FastAPI, Docker, Kubernetes, and CI/CD on AWS — applied to a real vehicle insurance domain project.</p>
+        <div class="about-chips">
+          <span>Python</span><span>SQL</span><span>Power BI</span>
+          <span>Machine Learning</span><span>Agentic AI</span><span>MLOps</span>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="card">
-            <h3>Spam Detection System</h3>
-            <p>
-                Compared multiple ML models (SVC, Naive Bayes, XGBoost) and selected best performing model
-                using evaluation metrics and pipeline automation.
-            </p>
-            <a href="https://github.com/your-repo">View Project</a>
+  <!-- EXPERIENCE -->
+  <section class="experience section" id="experience">
+    <div class="section-label">02 — Experience &amp; Education</div>
+    <h2 class="section-title">Where I've worked<br>&amp; studied.</h2>
+
+    <div class="timeline">
+
+      <div class="tl-item reveal">
+        <div class="tl-left">
+          <span class="tl-date">Aug 2025 – Mar 2026</span>
+          <span class="tl-org">Aumovio SE</span>
+          <span class="tl-badge thesis">Thesis</span>
         </div>
+        <div class="tl-right">
+          <h3>Master's Thesis — AI Assistant Efficiency</h3>
+          <ul>
+            <li>Designed evaluation framework with KPIs to measure AI assistant efficiency in software development workflows</li>
+            <li>Conducted developer perception surveys analysing adoption barriers and workflow impact</li>
+            <li>Built Power BI dashboard monitoring AI assistant usage, task completion, and developer productivity</li>
+            <li>Developed agentic AI workflows using Langflow to automate SDLC tasks</li>
+            <li>Demonstrated <strong>20% improvement</strong> in unit testing efficiency vs GitHub Copilot</li>
+          </ul>
+        </div>
+      </div>
 
-    </section>
+      <div class="tl-item reveal">
+        <div class="tl-left">
+          <span class="tl-date">Feb 2025 – Jul 2025</span>
+          <span class="tl-org">Continental AG</span>
+          <span class="tl-badge intern">Internship</span>
+        </div>
+        <div class="tl-right">
+          <h3>Power BI &amp; Efficiency Expert Intern</h3>
+          <ul>
+            <li>Built 2 Power BI dashboards from scratch for budget reporting and milestone efficiency tracking</li>
+            <li>Maintained and optimised 5+ dashboards improving performance and usability for stakeholders</li>
+            <li>Integrated data from Excel, SharePoint, ODBC databases, data lakes, and semantic models</li>
+            <li>Performed cost analysis identifying redundant production — contributing to <strong>€50K+ annual savings</strong></li>
+            <li>Automated reporting workflows using KNIME and Power Automate</li>
+          </ul>
+        </div>
+      </div>
 
-    <section>
-        <h2>Skills</h2>
-        <p>
-            Python • SQL • Machine Learning • Scikit-learn • Pandas • NumPy • MLflow • DVC • FastAPI • AWS • Docker • Git
-        </p>
-    </section>
+      <div class="tl-item reveal">
+        <div class="tl-left">
+          <span class="tl-date">Apr 2021 – Oct 2023</span>
+          <span class="tl-org">IBM India Pvt Ltd.</span>
+          <span class="tl-badge ibm">Full-time</span>
+        </div>
+        <div class="tl-right">
+          <h3>Application Developer &amp; Technical Consultant</h3>
+          <ul>
+            <li>Developed web application using Java, Angular, HTML/CSS, and JavaScript</li>
+            <li>Managed incidents and service requests via ServiceNow within SLA targets</li>
+            <li>Extracted and analysed incident datasets using Python to identify recurring infrastructure issues</li>
+            <li>Built Power BI dashboards to visualise incident trends and resolution metrics</li>
+          </ul>
+        </div>
+      </div>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Email: yourmail@gmail.com</p>
-        <p>Open to opportunities in Data Science and MLOps.</p>
-    </section>
+      <div class="tl-item reveal">
+        <div class="tl-left">
+          <span class="tl-date">Sep 2023 – Sep 2026</span>
+          <span class="tl-org">TH Deggendorf</span>
+        </div>
+        <div class="tl-right">
+          <h3>M.Sc AI and Data Science</h3>
+          <p class="tl-course">Computational Intelligence · Advanced ML · Feature Engineering · Computer Vision · Database Engineering · Software Engineering</p>
+        </div>
+      </div>
 
-    <footer>
-        <p>© 2026 Bharath | Built with HTML & CSS</p>
-    </footer>
+      <div class="tl-item reveal">
+        <div class="tl-left">
+          <span class="tl-date">Aug 2016 – Nov 2020</span>
+          <span class="tl-org">Saveetha Engineering</span>
+        </div>
+        <div class="tl-right">
+          <h3>B.E Computer Science and Engineering</h3>
+          <p class="tl-course">Data Structures · Operating Systems · Statistics · Cloud Computing · DBMS · Programming</p>
+        </div>
+      </div>
 
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="section-label">03 — Projects</div>
+    <h2 class="section-title">Things I've built.</h2>
+
+    <div class="projects-grid">
+
+      <div class="proj-card featured reveal">
+        <div class="proj-header">
+          <span class="proj-num">01</span>
+          <span class="proj-status">In Progress</span>
+        </div>
+        <h3>Vehicle Insurance MLOps Pipeline</h3>
+        <p>End-to-end production ML pipeline for vehicle insurance cross-sell prediction. Covers data ingestion from MongoDB, validation, transformation, model training, evaluation against production model, and auto-deployment via CI/CD.</p>
+        <div class="proj-stack">
+          <span>Python</span><span>Scikit-learn</span><span>MongoDB</span><span>FastAPI</span>
+          <span>Docker</span><span>AWS S3</span><span>EC2</span><span>GitHub Actions</span>
+          <span>DVC</span><span>MLflow</span>
+        </div>
+        <a href="https://github.com/bgonward23/" target="_blank" class="proj-link">View on GitHub ↗</a>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-header">
+          <span class="proj-num">02</span>
+        </div>
+        <h3>AI Assistant Efficiency Dashboard</h3>
+        <p>Power BI dashboard monitoring AI assistant usage, task completion KPIs, and developer productivity. Part of Master's thesis — demonstrated 20% unit testing efficiency improvement over GitHub Copilot.</p>
+        <div class="proj-stack">
+          <span>Power BI</span><span>DAX</span><span>Langflow</span><span>Agentic AI</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-header">
+          <span class="proj-num">03</span>
+        </div>
+        <h3>Tesla Stock Forecasting — ARIMA vs LSTM</h3>
+        <p>Time series analysis comparing classical ARIMA and deep learning LSTM models for TSLA stock prediction. Stationarity testing, resampling, hyperparameter tuning. Evaluated on RMSE and MAE.</p>
+        <div class="proj-stack">
+          <span>Python</span><span>LSTM</span><span>ARIMA</span><span>pandas</span><span>Matplotlib</span>
+        </div>
+        <a href="https://github.com/bgonward23/" target="_blank" class="proj-link">View on GitHub ↗</a>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-header">
+          <span class="proj-num">04</span>
+        </div>
+        <h3>Basketball Shot Analysis — OpenPose</h3>
+        <p>AI application using OpenPose and Faster R-CNN to analyse basketball shooting form via pose estimation. Flask web interface for video upload and keypoint visualisation.</p>
+        <div class="proj-stack">
+          <span>OpenPose</span><span>TensorFlow</span><span>OpenCV</span><span>Flask</span>
+        </div>
+        <a href="https://github.com/bgonward23/" target="_blank" class="proj-link">View on GitHub ↗</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="section-label">04 — Skills</div>
+    <h2 class="section-title">What I work with.</h2>
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <h4>Languages</h4>
+        <div class="skill-chips">
+          <span>Python</span><span>SQL</span><span>R</span><span>C / C++</span><span>Haskell</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h4>AI &amp; Machine Learning</h4>
+        <div class="skill-chips">
+          <span>Scikit-learn</span><span>TensorFlow</span><span>Keras</span>
+          <span>NLP</span><span>Computer Vision</span><span>RAG</span>
+          <span>Langflow</span><span>Agentic AI</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h4>Data &amp; Analytics</h4>
+        <div class="skill-chips">
+          <span>Power BI</span><span>DAX</span><span>pandas</span><span>numpy</span>
+          <span>ETL</span><span>Matplotlib</span><span>Plotly</span>
+          <span>PostgreSQL</span><span>MongoDB</span><span>Neo4j</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h4>MLOps &amp; Cloud</h4>
+        <div class="skill-chips">
+          <span>Docker</span><span>Kubernetes</span><span>FastAPI</span>
+          <span>AWS S3 · ECR · EC2</span><span>GitHub Actions</span>
+          <span>DVC</span><span>MLflow</span><span>Prometheus</span><span>Grafana</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h4>Tools</h4>
+        <div class="skill-chips">
+          <span>Git</span><span>KNIME</span><span>Power Automate</span>
+          <span>ServiceNow</span><span>Excel</span><span>Jupyter</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <h4>Languages spoken</h4>
+        <div class="skill-chips">
+          <span>English — C1</span><span>German — A1</span><span>Telugu — Native</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certs section" id="certs">
+    <div class="section-label">05 — Certifications</div>
+    <h2 class="section-title">Credentials.</h2>
+    <div class="certs-grid">
+      <div class="cert reveal"><span class="cert-issuer">Microsoft</span><span class="cert-name">Power BI Data Analyst Associate — PL-300</span></div>
+      <div class="cert reveal"><span class="cert-issuer">Microsoft</span><span class="cert-name">Azure AI Fundamentals — AI-900</span></div>
+      <div class="cert reveal"><span class="cert-issuer">Microsoft</span><span class="cert-name">Azure Fundamentals — AZ-900</span></div>
+      <div class="cert reveal"><span class="cert-issuer">IBM</span><span class="cert-name">Applied Data Science with Python — Level 2</span></div>
+      <div class="cert reveal"><span class="cert-issuer">IBM</span><span class="cert-name">Machine Learning Specialist — Associate</span></div>
+      <div class="cert reveal"><span class="cert-issuer">IBM</span><span class="cert-name">Cloud Advocate v2</span></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="section-label">06 — Contact</div>
+    <div class="contact-inner">
+      <h2 class="contact-title">Let's build<br>something <em>together.</em></h2>
+      <p class="contact-sub">Open to Data Scientist, Data Analyst, and MLOps roles across Germany and Europe. Also happy to talk about projects or collaborations.</p>
+      <div class="contact-links">
+        <a href="mailto:bharath.athuru97@gmail.com" class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="contact-val">bharath.athuru97@gmail.com ↗</span>
+        </a>
+        <a href="https://www.linkedin.com/in/bharathsimha-reddy-athuru-367745202/" target="_blank" class="contact-item">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-val">bharathsimha-reddy-athuru ↗</span>
+        </a>
+        <a href="https://github.com/bgonward23/" target="_blank" class="contact-item">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-val">bgonward23 ↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Bharathsimha Reddy Athuru</span>
+    <span>Immenstaad, Germany</span>
+  </footer>
+
+  <script>
+    // Custom cursor
+    const cursor = document.getElementById('cursor');
+    const dot = document.getElementById('cursorDot');
+    let mx = 0, my = 0, cx = 0, cy = 0;
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      dot.style.transform = `translate(${mx - 4}px, ${my - 4}px)`;
+    });
+    const animateCursor = () => {
+      cx += (mx - cx) * 0.1; cy += (my - cy) * 0.1;
+      cursor.style.transform = `translate(${cx - 20}px, ${cy - 20}px)`;
+      requestAnimationFrame(animateCursor);
+    };
+    animateCursor();
+    document.querySelectorAll('a, button, .proj-card, .cert, .tl-item').forEach(el => {
+      el.addEventListener('mouseenter', () => cursor.classList.add('hovered'));
+      el.addEventListener('mouseleave', () => cursor.classList.remove('hovered'));
+    });
+
+    // Nav scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 60));
+
+    // Reveal on scroll
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }});
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
 </body>
 </html>
